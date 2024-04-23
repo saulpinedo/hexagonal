@@ -1,0 +1,30 @@
+{"version": "0.2.0",
+"configurations": [
+    {
+        "name": ".NET Core Launch (web)",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build",
+        "program": "${workspaceFolder}/src/Users.Api/bin/Debug/net8.0/WebApi.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/src/Users.Api",
+        "stopAtEntry": false,
+        // "serverReadyAction": {
+        //     "action": "openExternally",
+        //     "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+        // },
+        "env": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "sourceFileMap": {
+            "/Views": "${workspaceFolder}/src/WebApi/Views"
+        },
+        "requireExactSource": false
+    },
+    {
+        "name": ".NET Core Attach",
+        "type": "coreclr",
+        "request": "attach"
+    }
+]
+}
