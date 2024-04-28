@@ -5,6 +5,7 @@ debug/
 
 # Ignorar archivos de configuración de Visual Studio
 .vs/
+.vs/CRUD/v17/.suo
 *.suo
 *.csproj.user
 *.vbproj.user
