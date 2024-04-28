@@ -1,3 +1,30 @@
+# Ignorar carpetas bin, obj y debug
 bin/
 obj/
 debug/
+
+# Ignorar archivos de configuración de Visual Studio
+.vs/
+*.suo
+*.csproj.user
+*.vbproj.user
+
+# Ignorar archivos de caché
+*.cache
+*.tmp
+*.log
+
+# Ignorar archivos de minificación
+*.min.js
+*.min.css
+
+# Ignorar archivos de prueba
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Ignorar archivos de documentación
+*.md
+*.doc
+*.docx

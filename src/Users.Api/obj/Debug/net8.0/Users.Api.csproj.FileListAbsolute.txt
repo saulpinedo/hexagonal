@@ -61,3 +61,4 @@ C:\Users\Sakretsu\Documents\PROJECTS\CRUD\src\Users.Api\bin\Debug\net8.0\runtime
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\src\Users.Api\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\src\Users.Api\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\src\Users.Api\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Sakretsu\Documents\PROJECTS\CRUD\src\Users.Api\obj\Debug\net8.0\Users.Api.sourcelink.json

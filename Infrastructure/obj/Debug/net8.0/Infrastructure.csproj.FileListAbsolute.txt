@@ -10,3 +10,4 @@ C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infras
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
