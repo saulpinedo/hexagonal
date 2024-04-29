@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Org.BouncyCastle.Security;
 using System.Collections;
+using Infrastructure.Models;
 
 namespace Users.Api.Controllers
 {
@@ -11,6 +12,7 @@ namespace Users.Api.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        //instanciamos la interfaz, pero no la inicializamos
         private readonly IUserRepository _userRepository;
         //private readonly UserRepositoryMariaDB _userRepository;
         public UserController( 
@@ -39,10 +41,26 @@ namespace Users.Api.Controllers
             return Ok(personas);
         }
 
-
-        //public IActionResult GetUserss()
+        [HttpPost]
+        public IActionResult CreateUsers([FromBody] Infrastructure.Models.Users user) { 
+            var createdUser = _userRepository.CreateUser(user);
+            if (createdUser != null)
+            {
+                return Ok(createdUser);
+            }
+            else
+            {
+                // Handle error scenario (e.g., user creation failed)
+                return BadRequest("User creation failed.");
+            }
+        }
+        //public class Users
         //{
-        //    IActionResult actionResult = null;
+        //    public int Id { get; set; }
+        //    public string Name { get; set; }
+        //    public string Email { get; set; }
+        //    public string Password { get; set; }
+
         //}
     }
 }

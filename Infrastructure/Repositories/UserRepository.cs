@@ -8,10 +8,11 @@ using System.Data.SqlClient;
 using System.Data;
 using MySql.Data.Types;
 using System.Collections.Generic;
+using Infrastructure.Models;
 
 namespace Infrastructure.Repositories
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository //: IUserRepository
     {
         private readonly string _connectionString = "server=localhost;database=Empresa;user=sa;password=Passw0rd";
 
@@ -44,11 +45,11 @@ namespace Infrastructure.Repositories
         // ... (implementar otros métodos de acceso a datos)
     }
 
-    public class Users {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
+    //private class Users {
+    //    public int Id { get; set; }
+    //    public string Name { get; set; }
+    //    public string Email { get; set; }
+    //    public string Password { get; set; }
 
-    }
+    //}
 }

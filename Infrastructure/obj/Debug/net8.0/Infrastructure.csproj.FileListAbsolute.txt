@@ -1,13 +1,13 @@
+C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
-C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
-C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
-C:\Users\Sakretsu\Documents\PROJECTS\CRUD\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
