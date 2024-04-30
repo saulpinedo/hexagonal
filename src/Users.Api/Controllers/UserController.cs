@@ -15,9 +15,9 @@ namespace Users.Api.Controllers
         //instanciamos la interfaz, pero no la inicializamos
         private readonly IUserRepository _userRepository;
         //private readonly UserRepositoryMariaDB _userRepository;
-        public UserController( 
+        public UserController(
             IUserRepository userRepository
-            //UserRepositoryMariaDB userRepositoryMariaDB
+         //UserRepositoryMariaDB userRepositoryMariaDB
          ) {
             //_userRepository = new UserRepository();
             _userRepository = userRepository;
@@ -37,12 +37,12 @@ namespace Users.Api.Controllers
         {
             //UserRepository userRepository = new UserRepository();
             //UserRepositoryMariaDB userRepository = new UserRepositoryMariaDB();
-            var personas = _userRepository.GetAllUsers();
+            var personas = _userRepository.GetUserById(id);
             return Ok(personas);
         }
 
         [HttpPost]
-        public IActionResult CreateUsers([FromBody] Infrastructure.Models.Users user) { 
+        public IActionResult CreateUsers([FromBody] Infrastructure.Models.Users user) {
             var createdUser = _userRepository.CreateUser(user);
             if (createdUser != null)
             {
@@ -54,13 +54,20 @@ namespace Users.Api.Controllers
                 return BadRequest("User creation failed.");
             }
         }
-        //public class Users
-        //{
-        //    public int Id { get; set; }
-        //    public string Name { get; set; }
-        //    public string Email { get; set; }
-        //    public string Password { get; set; }
 
-        //}
+        [HttpDelete("{id}")]
+        public IActionResult DeleteUsers(int id) {
+            var user = _userRepository.GetUserById(id);
+
+            if (user != null)
+            {
+                _userRepository.DeleteUser(id);
+                return Ok();
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
     }
 }

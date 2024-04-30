@@ -11,6 +11,9 @@ using System.Collections.Generic;
 using System.Data;
 using Google.Protobuf.WellKnownTypes;
 using Infrastructure.Models;
+using Microsoft.AspNetCore.Mvc;
+using Mysqlx;
+
 
 namespace Infrastructure.Repositories
 {
@@ -41,6 +44,28 @@ namespace Infrastructure.Repositories
                         }
                     }
                 }
+            }
+        }
+
+        public IEnumerable<Users> GetUserById(int id) {
+            using (var connection = new MySqlConnection(_connectionString)) { 
+                connection.Open ();
+                using (var command = connection.CreateCommand())
+                {
+                    command.CommandText = "select * from User where id = @id";
+                    command.Parameters.AddWithValue("id", id);
+                    using (var reader = command.ExecuteReader()) {
+                        while (reader.Read()) {
+                            yield return new Users
+                            {
+                                Id = Convert.ToInt32(reader["id"]),
+                                Name = reader["name"].ToString(),
+                                Email = reader["email"].ToString(),
+                                Password = reader["password"].ToString()
+                            };
+                        }
+                    }
+                };
             }
         }
 
@@ -87,15 +112,30 @@ namespace Infrastructure.Repositories
             }
         }
 
-        // ... (implementar otros métodos de acceso a datos)
+        public bool DeleteUser(int id)
+        {
+            using (var connection = new MySqlConnection(_connectionString))
+            {
+                connection.Open();
+                using (var command = connection.CreateCommand())
+                {
+                    command.CommandText = "delete from User where id = @id";
+                    command.Parameters.AddWithValue("id", id);
+                    int rowsAffected = command.ExecuteNonQuery(); // Execute the DELETE query
+
+                    if (rowsAffected > 0)
+                    {
+
+                        return true;
+                         
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                };
+            }
+        }
+
     }
-        //public class Users
-        //{
-        //    public int Id { get; set; }
-        //    public string Name { get; set; }
-        //    public string Email { get; set; }
-        //    public string Password { get; set; }
-
-        //}
-
 }

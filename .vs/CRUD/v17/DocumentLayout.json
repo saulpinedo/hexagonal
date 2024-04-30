@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Sakretsu\\Documents\\PROJECTS\\CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82975103-983E-4050-B611-DEEADDE814DA}|Infrastructure\\Infrastructure.csproj|c:\\users\\sakretsu\\documents\\projects\\crud\\infrastructure\\repositories\\userrepositorymariadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82975103-983E-4050-B611-DEEADDE814DA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepositorymariadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DF0E4D4A-4C65-4836-8B1D-325958F28C93}|src\\Users.Api\\Users.Api.csproj|c:\\users\\sakretsu\\documents\\projects\\crud\\src\\users.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF0E4D4A-4C65-4836-8B1D-325958F28C93}|src\\Users.Api\\Users.Api.csproj|solutionrelative:src\\users.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82975103-983E-4050-B611-DEEADDE814DA}|Infrastructure\\Infrastructure.csproj|c:\\users\\sakretsu\\documents\\projects\\crud\\infrastructure\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82975103-983E-4050-B611-DEEADDE814DA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{82975103-983E-4050-B611-DEEADDE814DA}|Infrastructure\\Infrastructure.csproj|c:\\users\\sakretsu\\documents\\projects\\crud\\infrastructure\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82975103-983E-4050-B611-DEEADDE814DA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82975103-983E-4050-B611-DEEADDE814DA}|Infrastructure\\Infrastructure.csproj|c:\\users\\sakretsu\\documents\\projects\\crud\\infrastructure\\repositories\\userrepositorymariadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82975103-983E-4050-B611-DEEADDE814DA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepositorymariadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82975103-983E-4050-B611-DEEADDE814DA}|Infrastructure\\Infrastructure.csproj|c:\\users\\sakretsu\\documents\\projects\\crud\\infrastructure\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82975103-983E-4050-B611-DEEADDE814DA}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\Sakretsu\\Documents\\PROJECTS\\CRUD\\Infrastructure\\Models\\Users.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Models\\Users.cs",
@@ -43,39 +43,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Sakretsu\\Documents\\PROJECTS\\CRUD\\Infrastructure\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\Sakretsu\\Documents\\PROJECTS\\CRUD\\Infrastructure\\Repositories\\IUserRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T02:53:21.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Sakretsu\\Documents\\PROJECTS\\CRUD\\src\\Users.Api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "src\\Users.Api\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Sakretsu\\Documents\\PROJECTS\\CRUD\\src\\Users.Api\\Controllers\\UserController.cs",
               "RelativeToolTip": "src\\Users.Api\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAcwCwAAABWAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAIA1wCcAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T02:00:20.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UserRepositoryMariaDB.cs",
               "DocumentMoniker": "C:\\Users\\Sakretsu\\Documents\\PROJECTS\\CRUD\\Infrastructure\\Repositories\\UserRepositoryMariaDB.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepositoryMariaDB.cs",
               "ToolTip": "C:\\Users\\Sakretsu\\Documents\\PROJECTS\\CRUD\\Infrastructure\\Repositories\\UserRepositoryMariaDB.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\UserRepositoryMariaDB.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwD8AAAAUAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAowIAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T02:39:02.841Z",
               "EditorCaption": ""
